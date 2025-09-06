@@ -3,18 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Delicious Bites</title>
-  
+  <title>Delicious Bites - Vegetarian Menu</title>
   <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"rel="stylesheet"/>
 </head>
 <body>
-  
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
     <div class="container">
-      <a class="navbar-brand" href="#">Delicious Bites</a>
+      <a class="navbar-brand fw-bold" href="#">Delicious Bites</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -37,9 +34,8 @@
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
-          
           <li class="nav-item">
-            <button class="btn btn-outline-light ms-3" data-bs-toggle="modal" data-bs-target="#loginModal">
+            <button class="btn btn-warning ms-3" data-bs-toggle="modal" data-bs-target="#loginModal">
               Login
             </button>
           </li>
@@ -49,96 +45,98 @@
   </nav>
 
  
-  <section class="bg-light text-center py-5">
+  <section class="bg-success text-white text-center py-5">
     <div class="container">
       <h1 class="display-4 fw-bold">Welcome to Delicious Bites</h1>
       <p class="lead mb-4">
-        Savor the best flavors from around the world, delivered fresh to your door.
+        Savor the rich flavors of traditional Indian vegetarian cuisine, crafted with love and spices.
       </p>
-      <a href="#menu" class="btn btn-primary btn-lg">Explore Our Menu</a>
+      <a href="#menu" class="btn btn-light btn-lg">Explore Our Menu</a>
     </div>
   </section>
 
- 
   <section id="menu" class="py-5">
     <div class="container">
-      <h2 class="mb-4 text-center">Our Menu</h2>
+      <h2 class="mb-4 text-center text-success">Our Vegetarian Menu</h2>
       <div class="row g-4">
-      
+     
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="card h-100">
-            <img
-              src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=400&q=80"
-              class="card-img-top"
-              alt="Margherita Pizza"
-            />
+          <div class="card h-100 border-success border-2">
+            <img src="https://cdn.pixabay.com/photo/2017/06/02/18/24/paneer-tikka-2369937_1280.jpg" class="card-img-top" alt="Paneer Tikka" />
             <div class="card-body">
-              <h5 class="card-title">Margherita Pizza</h5>
-              <p class="card-text">
-                Classic Italian pizza with fresh tomatoes, mozzarella, and basil.
-              </p>
+              <h5 class="card-title text-success">Paneer Tikka</h5>
+              <p class="card-text text-dark">Grilled cubes of marinated cottage cheese served with mint chutney.</p>
             </div>
-            <div class="card-footer">
-              <span class="fw-bold">₹150</span>
+            <div class="card-footer bg-light">
+              <span class="fw-bold text-success">₹180</span>
             </div>
           </div>
         </div>
 
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="card h-100">
-            <img
-              src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=400&q=80"
-              class="card-img-top"
-              alt="Sushi Platter"
-            />
+          <div class="card h-100 border-success border-2">
+            <img src="https://cdn.pixabay.com/photo/2017/06/02/18/24/dosa-2369936_1280.jpg" class="card-img-top" alt="Masala Dosa" />
             <div class="card-body">
-              <h5 class="card-title">Sushi Platter</h5>
-              <p class="card-text">
-                Fresh assorted sushi rolls served with soy sauce and wasabi.
-              </p>
+              <h5 class="card-title text-success">Masala Dosa</h5>
+              <p class="card-text text-dark">Crispy rice crepe stuffed with spiced potato filling, served with chutneys.</p>
             </div>
-            <div class="card-footer">
-              <span class="fw-bold">₹200</span>
+            <div class="card-footer bg-light">
+              <span class="fw-bold text-success">₹120</span>
             </div>
           </div>
         </div>
 
-      
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="card h-100">
-            <img
-              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80"
-              class="card-img-top"
-              alt="Caesar Salad"
-            />
+          <div class="card h-100 border-success border-2">
+            <img src="https://cdn.pixabay.com/photo/2017/06/02/18/24/chole-bhature-2369938_1280.jpg" class="card-img-top" alt="Chole Bhature" />
             <div class="card-body">
-              <h5 class="card-title">Caesar Salad</h5>
-              <p class="card-text">
-                Crisp romaine lettuce with creamy Caesar dressing and croutons.
-              </p>
+              <h5 class="card-title text-success">Chole Bhature</h5>
+              <p class="card-text text-dark">Spicy chickpea curry served with deep-fried fluffy bread.</p>
             </div>
-            <div class="card-footer">
-              <span class="fw-bold">₹80</span>
+            <div class="card-footer bg-light">
+              <span class="fw-bold text-success">₹150</span>
+            </div>
+          </div>
+        </div>
+
+     
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 border-success border-2">
+            <img src="https://cdn.pixabay.com/photo/2017/06/02/18/24/rasgulla-2369939_1280.jpg" class="card-img-top" alt="Rasgulla" />
+            <div class="card-body">
+              <h5 class="card-title text-success">Rasgulla</h5>
+              <p class="card-text text-dark">Soft, spongy cheese balls soaked in sweet syrup, a Bengali delicacy.</p>
+            </div>
+            <div class="card-footer bg-light">
+              <span class="fw-bold text-success">₹90</span>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 border-success border-2">
+            <img src="https://cdn.pixabay.com/photo/2017/06/02/18/24/dal-makhani-2369940_1280.jpg" class="card-img-top" alt="Dal Makhani" />
+            <div class="card-body">
+              <h5 class="card-title text-success">Dal Makhani</h5>
+              <p class="card-text text-dark">Creamy black lentils cooked with butter and spices, a Punjabi classic.</p>
+            </div>
+            <div class="card-footer bg-light">
+              <span class="fw-bold text-success">₹160</span>
             </div>
           </div>
         </div>
 
        
         <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="card h-100">
-            <img
-              src="https://images.unsplash.com/photo-1543352634-0b7a1f3a7f3a?auto=format&fit=crop&w=400&q=80"
-              class="card-img-top"
-              alt="Chocolate Cake"
-            />
+          <div class="card h-100 border-success border-2">
+            <img src="https://cdn.pixabay.com/photo/2017/06/02/18/24/cauliflower-2369941_1280.jpg" class="card-img-top" alt="Gobi Tikka" />
             <div class="card-body">
-              <h5 class="card-title">Chocolate Cake</h5>
-              <p class="card-text">
-                Rich and moist chocolate cake topped with creamy ganache.
-              </p>
+              <h5 class="card-title text-success">Gobi Tikka</h5>
+              <p class="card-text text-dark">Tangy spiced cauliflower florets grilled with yogurt marinade.</p>
             </div>
-            <div class="card-footer">
-              <span class="fw-bold">₹500</span>
+            <div class="card-footer bg-light">
+              <span class="fw-bold text-success">₹140</span>
             </div>
           </div>
         </div>
@@ -146,55 +144,56 @@
     </div>
   </section>
 
-  
+ 
   <section id="about" class="bg-light py-5">
     <div class="container">
-      <h2 class="mb-4 text-center">About Us</h2>
-      <p class="lead text-center mx-auto" style="max-width: 700px;">
-        At Delicious Bites, we believe food is an experience. Our chefs craft every dish with passion and the freshest ingredients to bring you unforgettable flavors. Whether you're craving comfort food or exotic tastes, we've got you covered.
-      </p>
+      <h2 class="mb-4 text-center text-success">About Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <p class="lead text-center">
+            At Delicious Bites, we believe food is an experience. Our chefs craft every dish with passion and the freshest ingredients to bring you unforgettable vegetarian flavors from India.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
-  
-
-
+ 
   <footer class="bg-dark text-white text-center py-3">
     <div class="container">
-      <small>&copy; 2024 Delicious Bites. All rights reserved.</small>
+      <small>© 2024 Delicious Bites. All rights reserved.</small>
     </div>
   </footer>
 
- 
+  
   <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
+      <div class="modal-content border-success border-3">
+        <div class="modal-header bg-success text-white">
           <h5 class="modal-title" id="loginModalLabel">Login</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <form>
             <div class="mb-3">
-              <label for="loginEmail" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="loginEmail" placeholder="name@example.com" required>
+              <label for="loginEmail" class="form-label text-success">Email address</label>
+              <input type="email" class="form-control border-success" id="loginEmail" placeholder="name@example.com" required>
             </div>
             <div class="mb-3">
-              <label for="loginPassword" class="form-label">Password</label>
-              <input type="password" class="form-control" id="loginPassword" placeholder="Password" required>
+              <label for="loginPassword" class="form-label text-success">Password</label>
+              <input type="password" class="form-control border-success" id="loginPassword" placeholder="Password" required>
             </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="rememberMe">
               <label class="form-check-label" for="rememberMe">Remember me</label>
             </div>
-            <button type="submit" class="btn btn-primary w-100">Login</button>
+            <button type="submit" class="btn btn-success w-100">Login</button>
           </form>
         </div>
       </div>
     </div>
   </div>
 
- 
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
   ></script>
